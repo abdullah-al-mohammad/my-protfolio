@@ -1,26 +1,45 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ffffff;
+	--foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-geist-sans);
+	--font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* .mySkill h1 {
+  position: relative;
+  text-align: center;
+} */
+.Underline h1::after {
+	content: "";
+	width: 100px;
+	height: 2px;
+	background: linear-gradient(90deg, #0cffff, #dc00d3);
+	display: block;
+	text-align: center;
+	margin: 6px auto;
+	border-radius: 2px;
+}
+.bg {
+	background: linear-gradient(110deg, #1004255f, #7b1, #0c8d8dbc);
+	color: white;
 }

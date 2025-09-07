@@ -1,0 +1,43 @@
+
+   [
+    {
+      "name": "HTML & CSS",
+      "description": "Building clean, responsive layouts",
+      "image": "/images/html.png"
+    },
+    {
+      "name": "JavaScript",
+      "description": "Writing dynamic, interactive web features",
+      "image": "/images/javascript.png"
+    },
+    {
+      "name": "React",
+      "description": "Creating fast, modern user interfaces",
+      "image": "/images/react.png"
+    },
+    {
+      "name": "Next.js",
+      "description": "Building scalable full-stack applications",
+      "image": "/images/nextjs.jpg"
+    },
+    {
+      "name": "Tailwind CSS",
+      "description": "Designing responsive UIs with utility-first classes",
+      "image": "/images/tailwindcss.png"
+    },
+    {
+      "name": "Bootstrap",
+      "description": "Creating mobile-friendly layouts with prebuilt components",
+      "image": "/images/bootstrap.png"
+    },
+    {
+      "name": "MongoDB",
+      "description": "Managing flexible NoSQL databases",
+      "image": "/images/mongodb.png"
+    },
+    {
+      "name": "TypeScript",
+      "description": "Writing safer, scalable code with strong typing",
+      "image": "/images/typescript.png"
+    }
+  ]
