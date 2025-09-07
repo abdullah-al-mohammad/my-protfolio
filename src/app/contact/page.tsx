@@ -10,10 +10,9 @@ import emailjs from "@emailjs/browser";
 import "./contact.css";
 
 export default function Contact() {
-	const form = useRef(null);
-	console.log(form);
+	const form = useRef<HTMLFormElement | null>(null);
 
-	const sendEmail = (e: any) => {
+	const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 
 		if (!form.current) {
@@ -28,7 +27,7 @@ export default function Contact() {
 			.then(
 				() => {
 					alert("SUCCESS!");
-					e.target.reset();
+					e.currentTarget.reset();
 				},
 				error => {
 					console.log("FAILED...", error.text);
@@ -36,28 +35,29 @@ export default function Contact() {
 				}
 			);
 	};
+
 	return (
 		<div className="contactBG h-screen">
 			<div className="max-w-screen-xl mx-auto mb-2">
 				<h1 className="capitalize text-2xl font-bold text-center">
-					get in touch now 😊, lets have a cup of tea ☕
+					get in touch now 😊, let&apos;s have a cup of tea ☕
 				</h1>
 				<div className="footer sm:footer-horizontal p-10">
 					<nav>
-						<Image className="w-10" src={location} alt="address"></Image>
+						<Image className="w-10" src={location} alt="address" />
 						<h6 className="footer-title">Address</h6>
 						<address className="link link-hover">
 							<span>Manikganj,Dhaka</span>
 						</address>
 					</nav>
 					<nav>
-						<Image className="w-10" src={phone} alt="phone"></Image>
+						<Image className="w-10" src={phone} alt="phone" />
 						<h6 className="footer-title">Phone</h6>
 						<p>01628860956</p>
 						<p>01998304128</p>
 					</nav>
 					<nav>
-						<Image className="w-10" src={mail} alt="mail"></Image>
+						<Image className="w-10" src={mail} alt="mail" />
 						<h6 className="footer-title">Email</h6>
 						<a className="link link-hover">abdullahalmuhammad6@gmail.com</a>
 						<a className="link link-hover">abdullahalmuhammad6@gmail.com</a>
@@ -65,19 +65,19 @@ export default function Contact() {
 				</div>
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-5">
 					<div>
-						<h2 className="capitalize text-2xl mb-2">let's connect</h2>
+						<h2 className="capitalize text-2xl mb-2">let&apos;s connect</h2>
 						<a
 							className="link link-hover flex items-center gap-2"
 							href="https://www.linkedin.com/in/md-abdullah-598a38258"
 						>
-							<Image className="w-5 mb-2" src={linkdien} alt="linkdien"></Image>
+							<Image className="w-5 mb-2" src={linkdien} alt="linkdien" />
 							<p className="capitalize">linkdien</p>
 						</a>
 						<a
 							className="link link-hover flex items-center gap-2"
 							href="https://www.facebook.com/abdullah.al.muhammad.482009"
 						>
-							<Image className="w-5 mb-2" src={facebook} alt="facebook"></Image>
+							<Image className="w-5 mb-2" src={facebook} alt="facebook" />
 							<p className="capitalize">facebook</p>
 						</a>
 					</div>
@@ -86,7 +86,7 @@ export default function Contact() {
 						<form
 							ref={form}
 							onSubmit={sendEmail}
-							className="grid grid-col s-1 md:grid-cols-2 gap-2"
+							className="grid grid-cols-1 md:grid-cols-2 gap-2"
 						>
 							<div>
 								<label>Name</label>

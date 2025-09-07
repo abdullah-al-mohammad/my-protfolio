@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 // import './styles.css';
 
 // import required modules
-import { Pagination, FreeMode, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import image1 from "../../../public/images/Blood Donation.png";
 import image2 from "../../../public/images/studentLession.jpg";
 import image3 from "../../../public/images/ecommerce.jpg";

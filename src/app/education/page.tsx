@@ -4,7 +4,7 @@ import Image from "next/image";
 import honours from "../../../public/images/honours.png";
 import alim from "../../../public/images/alim.png";
 
-export const Education = () => {
+export default function Education() {
 	return (
 		<div className="Underline">
 			<h1 className="text-center capitalize text-green-600 text-2xl mb-2">
@@ -50,4 +50,4 @@ export const Education = () => {
 			</div>
 		</div>
 	);
-};
+}
