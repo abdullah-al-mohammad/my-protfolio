@@ -1,8 +1,7 @@
 "use client";
 import Image from "next/image";
-import abadullah from "../../../public/images/abdullah.jpg";
+import abadullah from "../../../public/images/abdullah.png";
 import "./banner.css";
-import Navbar from "../navbar/page"; // onsider moving Navbar to components
 
 export default function Banner() {
 	const handleDownload = () => {
@@ -15,7 +14,6 @@ export default function Banner() {
 
 	return (
 		<div className="max-w-screen-xl mx-auto px-4 lg:space-y-20 space-y-10">
-			{/* <Navbar /> */}
 			<div className="flex-none lg:flex items-center lg:justify-between gap-x-10 text-center lg:text-start mt-16">
 				<div className="mb-10 lg:mb-0">
 					<h1 className="mb-6 text-2xl">
@@ -38,11 +36,7 @@ export default function Banner() {
 					</button>
 				</div>
 				{/* <div> */}
-				<Image
-					className="rounded-ee-2xl rounded-tl-2xl mx-auto lg:mx-0"
-					src={abadullah}
-					alt="abdullah"
-				/>
+				<Image className="mx-auto lg:mx-0" src={abadullah} alt="abdullah" />
 				{/* </div> */}
 			</div>
 		</div>

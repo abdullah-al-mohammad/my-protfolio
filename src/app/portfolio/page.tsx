@@ -20,7 +20,7 @@ import Image from "next/image";
 export default function Portfolio() {
 	return (
 		<div className="Underline">
-			<h1 className="text-2xl capitalize text-green-600 text-center mb-10">
+			<h1 className="text-2xl capitalize text-green-600 text-center mb-3">
 				projects
 			</h1>
 			<p className="mb-10 text-center">
@@ -53,7 +53,7 @@ export default function Portfolio() {
 					className="mySwiper"
 				>
 					<SwiperSlide>
-						<div className="card bg-base-100 w-96 mx-auto shadow-sm mb-5">
+						<div className="card bg-base-100 mb-5">
 							<figure>
 								<Image src={image1} alt="blood"></Image>
 							</figure>
@@ -89,7 +89,7 @@ export default function Portfolio() {
 						</div>
 					</SwiperSlide>
 					<SwiperSlide>
-						<div className="card bg-base-100 shadow-sm mb-5">
+						<div className="card bg-base-100 mb-5">
 							<figure>
 								<Image src={image2} alt="study"></Image>
 							</figure>
@@ -125,7 +125,7 @@ export default function Portfolio() {
 						</div>
 					</SwiperSlide>
 					<SwiperSlide>
-						<div className="card bg-base-100 shadow-sm mb-5">
+						<div className="card bg-base-100 mb-5">
 							<figure>
 								<Image src={image3} alt="ecommerce"></Image>
 							</figure>

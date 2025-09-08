@@ -115,7 +115,7 @@ export default function Contact() {
 								/>
 							</div>
 							<input
-								className="btn bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1]"
+								className="btn w-24 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1]"
 								type="submit"
 								value="Send"
 							/>
