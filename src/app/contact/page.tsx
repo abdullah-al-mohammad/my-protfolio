@@ -6,6 +6,7 @@ import phone from "../../../public/images/phone.png";
 import mail from "../../../public/images/mail.png";
 import linkdien from "../../../public/images/linkedin.png";
 import facebook from "../../../public/images/facebook.png";
+import github from "../../../public/images/github.png";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 import { toast, ToastContainer } from "react-toastify";
@@ -38,11 +39,11 @@ export default function Contact() {
 
 	return (
 		<>
-			<div className="mb-10">
+			<div className="mb-10 text-center md:text-start">
 				<h1 className="capitalize text-2xl font-bold text-center mb-3">
 					get in touch now 😊, let&apos;s have a cup of tea ☕
 				</h1>
-				<div className="footer sm:footer-horizontal py-10">
+				<div className="grid grid-cols-2 md:grid-cols-3 items-center py-10">
 					<nav>
 						<Image
 							className="w-15 rounded-full p-4 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1]"
@@ -91,6 +92,13 @@ export default function Contact() {
 						>
 							<Image className="w-5 mb-2" src={facebook} alt="facebook" />
 							<p className="capitalize">facebook</p>
+						</a>
+						<a
+							className="link link-hover flex items-center gap-2"
+							href="https://github.com/abdullah-al-mohammad"
+						>
+							<Image className="w-5 mb-2" src={github} alt="facebook" />
+							<p className="capitalize">github</p>
 						</a>
 					</div>
 					<div>
