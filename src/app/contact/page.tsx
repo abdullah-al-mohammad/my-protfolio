@@ -8,6 +8,7 @@ import linkdien from "../../../public/images/linkedin.png";
 import facebook from "../../../public/images/facebook.png";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { toast, ToastContainer } from "react-toastify";
 
 export default function Contact() {
 	const form = useRef<HTMLFormElement | null>(null);
@@ -26,12 +27,11 @@ export default function Contact() {
 			})
 			.then(
 				() => {
-					alert("SUCCESS!");
+					toast.success("Mail Send Successfully");
 					e.currentTarget.reset();
 				},
 				error => {
-					console.log("FAILED...", error.text);
-					alert("Something went wrong. Please try again.");
+					toast.error("Something went wrong. Please try again.");
 				}
 			);
 	};
@@ -42,7 +42,7 @@ export default function Contact() {
 				<h1 className="capitalize text-2xl font-bold text-center mb-3">
 					get in touch now 😊, let&apos;s have a cup of tea ☕
 				</h1>
-				<div className="footer sm:footer-horizontal p-10">
+				<div className="footer sm:footer-horizontal py-10">
 					<nav>
 						<Image className="w-10" src={location} alt="address" />
 						<h6 className="footer-title">Address</h6>
@@ -82,7 +82,7 @@ export default function Contact() {
 						</a>
 					</div>
 					<div>
-						<h2 className="text-2xl capitalize mb-2">send me a message</h2>
+						<h2 className="text-2xl mb-3">Send me a message</h2>
 						<form
 							ref={form}
 							onSubmit={sendEmail}
@@ -123,6 +123,7 @@ export default function Contact() {
 					</div>
 				</div>
 			</div>
+			<ToastContainer></ToastContainer>
 		</>
 	);
 }
