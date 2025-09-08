@@ -24,9 +24,8 @@ export default function Banner() {
 						a professional <span className="text-5xl">developer</span>
 					</h2>
 					<p className="mb-6">
-						I&apos;m a Freelance UI/UX Designer and Developer based in
-						Bahawalpur, Pakistan. I strive to build immersive and beautiful web
-						applications through carefully crafted code and user-centric design.
+						UI/UX Designer & Developer passionate about building clean,
+						responsive, and user-friendly web applications.
 					</p>
 					<button
 						onClick={handleDownload}
