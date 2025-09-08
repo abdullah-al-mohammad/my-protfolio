@@ -44,7 +44,7 @@ export default function Contact() {
 					get in touch now 😊, let&apos;s have a cup of tea ☕
 				</h1>
 				{/* Contact Info */}
-				<div className="grid grid-cols-2 md:grid-cols-3 md:w-2xl md:mx-auto items-center justify-center py-10">
+				<div className="grid grid-cols-2 md:grid-cols-3 md:w-2xl md:mx-auto justify-center py-10">
 					<div>
 						<Image
 							className="w-15 mx-auto md:mx-0 rounded-full p-4 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1] mb-3 md:mb-0"
