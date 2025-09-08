@@ -40,12 +40,11 @@ export default function Contact() {
 	return (
 		<>
 			<div className="mb-10 text-center md:text-start">
-				<h1 className="capitalize text-2xl font-bold text-center mb-3">
+				<h1 className="capitalize text-2xl font-bold text-center mb-10">
 					get in touch now 😊, let&apos;s have a cup of tea ☕
 				</h1>
-
 				{/* Contact Info */}
-				<div className="grid grid-cols-2 md:grid-cols-3 items-center justify-center py-10">
+				<div className="grid grid-cols-2 md:grid-cols-3 md:w-2xl md:mx-auto items-center justify-center py-10">
 					<div>
 						<Image
 							className="w-15 mx-auto md:mx-0 rounded-full p-4 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1] mb-3 md:mb-0"
@@ -79,7 +78,7 @@ export default function Contact() {
 				</div>
 
 				{/* Social */}
-				<div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+				<div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
 					<div className="mx-auto md:mx-0">
 						<h2 className="capitalize text-2xl mb-2">let&apos;s connect</h2>
 						<a
