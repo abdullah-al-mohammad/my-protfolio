@@ -14,8 +14,8 @@ export default function Banner() {
 	};
 
 	return (
-		<div className="bgBanner">
-			<Navbar />
+		<div className="max-w-screen-xl mx-auto px-4 lg:space-y-20 space-y-10">
+			{/* <Navbar /> */}
 			<div className="flex-none lg:flex items-center lg:justify-between gap-x-10 text-center lg:text-start mt-16">
 				<div className="mb-10 lg:mb-0">
 					<h1 className="mb-6 text-2xl">
