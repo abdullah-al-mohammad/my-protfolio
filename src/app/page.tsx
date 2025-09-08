@@ -9,14 +9,12 @@ export default function Home() {
 	return (
 		<>
 			<Banner></Banner>
-			<div className="font-sans grid items-center justify-items-center">
-				<main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start  max-w-screen-xl mx-auto px-4 space-y-20 bg-custom-gradient`">
-					<Skills></Skills>
-					<Education></Education>
-					<Portfolio></Portfolio>
-				</main>
-			</div>
-			<Contact></Contact>
+			<main className="max-w-screen-xl mx-auto px-4 lg:space-y-20 space-y-10">
+				<Skills></Skills>
+				<Education></Education>
+				<Portfolio></Portfolio>
+				<Contact></Contact>
+			</main>
 			<Footer></Footer>
 		</>
 	);

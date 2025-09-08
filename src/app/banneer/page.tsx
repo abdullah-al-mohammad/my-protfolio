@@ -16,10 +16,11 @@ export default function Banner() {
 	return (
 		<div className="bgBanner">
 			<Navbar />
-			<div className="md:flex items-center justify-between gap-x-10 max-w-screen-xl mx-auto p-4 h-screen">
-				<div>
+			<div className="flex-none lg:flex items-center lg:justify-between gap-x-10 text-center lg:text-start mt-16">
+				<div className="mb-10 lg:mb-0">
 					<h1 className="mb-6 text-2xl">
-						I am <br /> <span className="text-5xl uppercase">md abdullah</span>
+						<span className="block mb-5">I am</span>
+						<span className="text-5xl uppercase">md abdullah</span>
 					</h1>
 					<h2 className="mb-6 capitalize bg-gradient-to-r from-[#0CFFFF] via-[#100425] to-[#DC00D3] text-transparent bg-clip-text">
 						a professional <span className="text-5xl">developer</span>
@@ -36,13 +37,13 @@ export default function Banner() {
 						download cv
 					</button>
 				</div>
-				<div>
-					<Image
-						className="bg-transparent rounded-ee-2xl rounded-tl-2xl"
-						src={abadullah}
-						alt="abdullah"
-					/>
-				</div>
+				{/* <div> */}
+				<Image
+					className="rounded-ee-2xl rounded-tl-2xl mx-auto lg:mx-0"
+					src={abadullah}
+					alt="abdullah"
+				/>
+				{/* </div> */}
 			</div>
 		</div>
 	);

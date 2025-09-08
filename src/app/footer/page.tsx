@@ -3,8 +3,8 @@ import "./footer.css";
 
 export default function Footer() {
 	return (
-		<div className="bg">
-			<footer className="footer sm:footer-horizontal footer-center p-4">
+		<>
+			<footer className="footer sm:footer-horizontal footer-center p-4 bg">
 				<aside>
 					<p>
 						Copyright © {new Date().getFullYear()} - All right reserved by ACME
@@ -12,6 +12,6 @@ export default function Footer() {
 					</p>
 				</aside>
 			</footer>
-		</div>
+		</>
 	);
 }

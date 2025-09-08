@@ -37,9 +37,9 @@ export default function Contact() {
 	};
 
 	return (
-		<div className="contactBG h-screen">
-			<div className="max-w-screen-xl mx-auto mb-2">
-				<h1 className="capitalize text-2xl font-bold text-center">
+		<>
+			<div className="mb-10">
+				<h1 className="capitalize text-2xl font-bold text-center mb-3">
 					get in touch now 😊, let&apos;s have a cup of tea ☕
 				</h1>
 				<div className="footer sm:footer-horizontal p-10">
@@ -89,7 +89,7 @@ export default function Contact() {
 							className="grid grid-cols-1 md:grid-cols-2 gap-2"
 						>
 							<div>
-								<label>Name</label>
+								<label className="block">Name</label>
 								<input
 									className="input"
 									type="text"
@@ -123,6 +123,6 @@ export default function Contact() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
