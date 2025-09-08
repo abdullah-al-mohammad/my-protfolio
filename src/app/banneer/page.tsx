@@ -18,7 +18,7 @@ export default function Banner() {
 				<div className="mb-10 lg:mb-0">
 					<h1 className="mb-6 text-2xl">
 						<span className="block mb-5">I am</span>
-						<span className="text-5xl uppercase">md abdullah</span>
+						<span className="text-2xl md:text-4xl capitalize">md abdullah</span>
 					</h1>
 					<h2 className="mb-6 capitalize  bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1] text-transparent bg-clip-text">
 						a professional <span className="text-5xl">developer</span>

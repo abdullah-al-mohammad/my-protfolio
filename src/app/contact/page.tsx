@@ -67,7 +67,7 @@ export default function Contact() {
 						<p>01628860956</p>
 						<p>01998304128</p>
 					</div>
-					<div className="col-span-2 md:col-span-1">
+					<div className="col-span-2 md:col-span-1 mt-5 md:mt-0">
 						<Image
 							className="w-15 mx-auto md:mx-0 rounded-full p-4 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1] mb-3 md:mb-0"
 							src={mail}
