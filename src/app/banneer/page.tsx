@@ -20,7 +20,7 @@ export default function Banner() {
 						<span className="block mb-5">I am</span>
 						<span className="text-5xl uppercase">md abdullah</span>
 					</h1>
-					<h2 className="mb-6 capitalize bg-gradient-to-r from-[#0CFFFF] via-[#100425] to-[#DC00D3] text-transparent bg-clip-text">
+					<h2 className="mb-6 capitalize  bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1] text-transparent bg-clip-text">
 						a professional <span className="text-5xl">developer</span>
 					</h2>
 					<p className="mb-6">
@@ -30,7 +30,7 @@ export default function Banner() {
 					</p>
 					<button
 						onClick={handleDownload}
-						className="btn btn-lg capitalize px-6 py-2"
+						className="btn btn-lg capitalize px-6 py-2  bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1]"
 					>
 						download cv
 					</button>

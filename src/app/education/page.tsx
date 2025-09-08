@@ -16,7 +16,7 @@ export default function Education() {
 					Islamic Studies – Govt. Debendra College, Manikganj
 				</p>
 				<div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-5">
-					<div className="card card-border w-auto">
+					<div className="card card-border bg-base-100 w-auto">
 						<div className="card-body">
 							<div className="flex items-center">
 								<Image src={alim} alt="alim" className="w-20"></Image>
