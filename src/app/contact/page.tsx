@@ -44,20 +44,32 @@ export default function Contact() {
 				</h1>
 				<div className="footer sm:footer-horizontal py-10">
 					<nav>
-						<Image className="w-10" src={location} alt="address" />
+						<Image
+							className="w-15 rounded-full p-4 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1]"
+							src={location}
+							alt="address"
+						/>
 						<h6 className="footer-title">Address</h6>
 						<address className="link link-hover">
 							<span>Manikganj,Dhaka</span>
 						</address>
 					</nav>
 					<nav>
-						<Image className="w-10" src={phone} alt="phone" />
+						<Image
+							className="w-15 rounded-full p-4 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1]"
+							src={phone}
+							alt="phone"
+						/>
 						<h6 className="footer-title">Phone</h6>
 						<p>01628860956</p>
 						<p>01998304128</p>
 					</nav>
 					<nav>
-						<Image className="w-10" src={mail} alt="mail" />
+						<Image
+							className="w-15 rounded-full p-4 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1]"
+							src={mail}
+							alt="mail"
+						/>
 						<h6 className="footer-title">Email</h6>
 						<a className="link link-hover">abdullahalmuhammad6@gmail.com</a>
 						<a className="link link-hover">abdullahalmuhammad6@gmail.com</a>
