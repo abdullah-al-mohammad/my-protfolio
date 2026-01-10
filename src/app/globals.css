@@ -25,10 +25,6 @@ body {
 	color: var(--foreground);
 	font-family: Arial, Helvetica, sans-serif;
 }
-/* .mySkill h1 {
-  position: relative;
-  text-align: center;
-} */
 .Underline h1::after {
 	content: "";
 	width: 100px;
@@ -40,6 +36,6 @@ body {
 	border-radius: 2px;
 }
 .bg {
-	background: linear-gradient(110deg, #1004255f, #7b1, #0c8d8dbc);
+	background: rgb(35, 33, 33);
 	color: white;
 }

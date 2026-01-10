@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import logo from "../../../public/favicon.ico";
 
 const Navbar = () => {
@@ -10,10 +9,10 @@ const Navbar = () => {
 				<Link href="/">home</Link>
 			</li>
 			<li>
-				<Link href="portfolio">projects</Link>
+				<Link href="#projects">projects</Link>
 			</li>
 			<li>
-				<Link href="contact">contact</Link>
+				<Link href="#contact">contact</Link>
 			</li>
 		</>
 	);
