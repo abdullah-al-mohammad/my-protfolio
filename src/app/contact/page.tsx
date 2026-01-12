@@ -65,7 +65,7 @@ export default function Contact() {
             </Link>
           </div>
           <div>
-            <h2 className="text-2xl font-semibold mb-4">Send Me a Message</h2>
+            <h2 className="text-2xl font-semibold mb-4">send me a message</h2>
             <form ref={form} onSubmit={sendEmail} className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block mb-1">Name</label>
@@ -96,7 +96,7 @@ export default function Contact() {
                   required
                 ></textarea>
               </div>
-              <div className="col-span-1 md:col-span-2 flex justify-center">
+              <div className="col-span-1 md:col-span-2 flex justify-end">
                 <input
                   className="btn w-32 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1] text-white px-4 py-2 rounded cursor-pointer"
                   type="submit"

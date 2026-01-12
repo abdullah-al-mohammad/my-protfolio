@@ -7,7 +7,7 @@ import './footer.css';
 export default function Footer() {
   return (
     <>
-      <footer className="footer sm:footer-horizontal footer-center p-4 bg">
+      <footer className="footer sm:footer-horizontal footer-center p-4 bg-neutral-300">
         <aside>
           <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center text-center md:w-2xl md:mx-auto py-10">
             <div>
