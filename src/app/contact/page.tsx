@@ -98,7 +98,7 @@ export default function Contact() {
               </div>
               <div className="col-span-1 md:col-span-2 flex justify-end">
                 <input
-                  className="btn w-32 bg-gradient-to-r from-[#0c8d8dbc] to-[#7b1] text-white px-4 py-2 rounded cursor-pointer"
+                  className="btn w-32 bg-linear-to-r from-[#0c8d8dbc] to-[#7b1] text-white px-4 py-2 rounded cursor-pointer"
                   type="submit"
                   value="Send"
                 />

@@ -111,7 +111,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-transparent">
+    <div className="navbar bg-transparent absolute">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -144,7 +144,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
     </div>
