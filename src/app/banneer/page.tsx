@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import abadullah from '../../../public/images/ab.png';
-import './banner.css';
 export default function Banner() {
   const handleDownload = () => {
     const link = document.createElement('a');
@@ -12,10 +11,10 @@ export default function Banner() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center lg:justify-between text-center lg:text-start">
-        <div className="absolute left-0 h-full w-9/12 hidden md:block bg-amber-400 [clip-path:polygon(0%_0%,20%_0%,30%_100%,0%_100%)]"></div>
-        <div className="shadow rounded-2xl overflow-hidden z-10 pt-14 md:-ml-16 relative h-[600] w-[500]">
+        <div className="absolute left-0 top-0 h-full w-9/12 hidden md:block bg-amber-400 [clip-path:polygon(0%_0%,20%_0%,30%_100%,0%_100%)]"></div>
+        <div className="shadow rounded-2xl overflow-hidden z-10 mt-5 md:-ml-16 relative w-125 mx-auto mb-10">
           <Image className="object-cover rounded-xl" src={abadullah} alt="abdullah" />
         </div>
         <div className="mb-10 lg:mb-0">
@@ -57,6 +56,6 @@ export default function Banner() {
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 }

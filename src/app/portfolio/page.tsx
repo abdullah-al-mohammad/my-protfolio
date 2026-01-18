@@ -19,8 +19,8 @@ import Image from 'next/image';
 
 export default function Portfolio() {
   return (
-    <div id="projects" className="Underline">
-      <h1 className="text-2xl capitalize text-green-600 text-center mb-3">projects</h1>
+    <div id="projects" className="group">
+      <h1 className="text-2xl uppercase text-amber-400 text-center mb-3">my Portfolio</h1>
       <p className="mb-10 text-center">
         Showcasing my skills, projects, and journey as a developer
       </p>
@@ -39,7 +39,7 @@ export default function Portfolio() {
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 2,
+              slidesPerView: 1,
               spaceBetween: 40,
             },
             1024: {
@@ -54,7 +54,7 @@ export default function Portfolio() {
             <div className="card bg-base-100 mb-5 md:mb-0 shadow-2xl">
               <Image className="h-48 w-full object-cover" src={image1} alt="blood" />
               <div className="card-body p-4">
-                <h2 className="card-title text-2xl font-bold h-13 overflow-hidden">
+                <h2 className="card-title text-2xl font-bold h-13 overflow-hidden group-hover:text-amber-400 transition-all duration-500">
                   Blood Donation
                 </h2>
                 <p className="font-bold h-5 overflow-hidden">
@@ -70,13 +70,13 @@ export default function Portfolio() {
                 </p>
                 <div className="card-actions mt-auto justify-end">
                   <a
-                    className="link underline text-blue-400 capitalize"
+                    className="link underline text-amber-400 capitalize"
                     href={'https://github.com/abdullah-al-mohammad?tab=repositories'}
                   >
                     view code
                   </a>
                   <a
-                    className="link underline text-blue-400 capitalize ml-3"
+                    className="link underline text-amber-400 capitalize ml-3"
                     href="https://blood-donation-77604.web.app"
                   >
                     live demo
@@ -89,7 +89,7 @@ export default function Portfolio() {
             <div className="card bg-base-100 mb-5 md:mb-0 shadow-2xl">
               <Image className="h-48 w-full object-cover" src={image2} alt="study" />
               <div className="card-body p-4">
-                <h2 className="card-title text-2xl font-bold h-13 overflow-hidden">
+                <h2 className="card-title text-2xl font-bold h-13 overflow-hidden group-hover:text-amber-400 transition-all duration-500">
                   Online groupe study
                 </h2>
                 <p className="font-bold line-clamp-2  h-5 overflow-hidden">
@@ -104,13 +104,13 @@ export default function Portfolio() {
                 </p>
                 <div className="card-actions mt-auto justify-end">
                   <a
-                    className="link underline text-blue-400 capitalize"
+                    className="link underline text-amber-400 capitalize"
                     href={'https://github.com/abdullah-al-mohammad/online-group-study'}
                   >
                     view code
                   </a>
                   <a
-                    className="link underline text-blue-400 capitalize ml-3"
+                    className="link underline text-amber-400 capitalize ml-3"
                     href="https://online-group-study-5c0f0.web.app"
                   >
                     live demo
@@ -123,7 +123,7 @@ export default function Portfolio() {
             <div className="card bg-base-100 mb-5 md:mb-0 shadow-2xl">
               <Image className="h-48 w-full object-cover" src={image3} alt="ecommerce" />
               <div className="card-body p-4">
-                <h2 className="card-title text-2xl font-bold h-13 overflow-hidden">
+                <h2 className="card-title text-2xl font-bold h-13 overflow-hidden group-hover:text-amber-400 transition-all duration-500">
                   Shop the Best, Live the Best
                 </h2>
                 <p className=" h-5 overflow-hidden">
@@ -137,13 +137,13 @@ export default function Portfolio() {
                 </p>
                 <div className="card-actions justify-end">
                   <a
-                    className="link underline text-blue-400 capitalize"
+                    className="link underline capitalize text-amber-400"
                     href={'https://github.com/abdullah-al-mohammad?tab=repositories'}
                   >
                     view code
                   </a>
                   <a
-                    className="link ml-3 underline text-blue-400 capitalize"
+                    className="link ml-3 underline text-amber-400 capitalize"
                     href="https://cartify-f3a7b.web.app"
                   >
                     live demo

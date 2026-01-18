@@ -25,17 +25,3 @@ body {
 	color: var(--foreground);
 	font-family: Arial, Helvetica, sans-serif;
 }
-.Underline h1::after {
-	content: "";
-	width: 100px;
-	height: 2px;
-	background: linear-gradient(90deg, #0cffff, #dc00d3);
-	display: block;
-	text-align: center;
-	margin: 6px auto;
-	border-radius: 2px;
-}
-/* .bg {
-	background: rgb(35, 33, 33);
-	color: white;
-} */

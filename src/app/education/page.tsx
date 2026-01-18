@@ -1,19 +1,18 @@
 import Image from 'next/image';
 import alim from '../../../public/images/alim.png';
 import honours from '../../../public/images/honours.png';
-import './education.css';
 
 export default function Education() {
   return (
     <>
       <div className="Underline">
-        <h1 className="text-center capitalize text-green-600 text-2xl mb-3">education</h1>
+        <h1 className="text-center uppercase text-amber-400 text-2xl mb-3">education</h1>
         <p className="mb-5 text-center">
           Alim HSC Manikganj Islamia Kamil Madrasah 2016 BA Honours in Islamic Studies Govt.
           Debendra College, Manikganj.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center gap-5">
-          <div className="card card-border bg-base-100 w-auto shadow-2xl">
+          <div className="card card-border bg-base-100 w-auto shadow-2xl border border-amber-400">
             <div className="card-body">
               <div className="flex items-center">
                 <Image src={alim} alt="alim" className="w-20" />
@@ -26,7 +25,7 @@ export default function Education() {
               </p>
             </div>
           </div>
-          <div className="card card-border bg-base-100 w-auto shadow-2xl">
+          <div className="card card-border bg-base-100 w-auto shadow-2xl border border-amber-400">
             <div className="card-body">
               <div className="flex items-center">
                 <Image src={honours} alt="honours" className="w-20" />

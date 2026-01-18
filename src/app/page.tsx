@@ -1,4 +1,4 @@
-import Banner from './banner/page';
+import Banner from './banneer/page';
 import Contact from './contact/page';
 import Education from './education/page';
 import Footer from './footer/page';
@@ -8,16 +8,16 @@ import Portfolio from './portfolio/page';
 
 export default function Home() {
   return (
-    <>
+    <main className="max-w-screen-xl mx-auto px-4">
       <Navbar></Navbar>
-      <main className="max-w-screen-xl mx-auto px-4 lg:space-y-20 space-y-10">
+      <div className="space-y-20">
         <Banner></Banner>
         <Skills></Skills>
         <Education></Education>
         <Portfolio></Portfolio>
         <Contact></Contact>
-      </main>
+      </div>
       <Footer></Footer>
-    </>
+    </main>
   );
 }
