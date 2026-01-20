@@ -35,7 +35,7 @@ export default function Contact() {
   };
   return (
     <>
-      <div id="contact" className="mb-10 text-center md:text-start">
+      <div id="contact" className="mb-10 md:text-start">
         <h1 className="uppercase text-2xl text-amber-400 font-bold text-center mb-10">
           contact with me
         </h1>
@@ -65,8 +65,8 @@ export default function Contact() {
             <p className="flex items-start gap-3">
               <FaPhone className="mt-1 text-4xl text-black bg-amber-400 p-2 rounded" />
               <span className="flex flex-col">
-                <span className="font-medium">Call Me</span>
-                <span className="text-sm text-gray-500">01628860956</span>
+                <span className="font-medium text-center">Call Me</span>
+                <span className="text-sm text-gray-500 text-center">01628860956</span>
               </span>
             </p>
             <div className="flex gap-10 mt-5">
