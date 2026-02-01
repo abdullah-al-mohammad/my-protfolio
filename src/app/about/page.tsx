@@ -4,8 +4,8 @@ import { FaLongArrowAltRight } from 'react-icons/fa';
 export default function About() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?export=download&id=10mziOKu-kPurSDebDGnvq4XZxLlDaUoQ';
-    link.download = 'AbdullahCV.pdf';
+    link.href = 'https://drive.google.com/uc?export=download&id=1K8MJlg2Mc0fkjIDI-sM3aVBTbwqKqeps';
+    link.download = 'abdullahResume.pdf';
     link.click();
   };
   return (
@@ -17,7 +17,11 @@ export default function About() {
         <p className="text-center text-amber-400">Junior MERN Developer</p>
 
         <p className="text-center text-sm text-gray-400 mt-3">
-          I build responsive and user-friendly web applications using modern technologies.
+          Learned full-stack web development through the Programming Hero course and Sumit Saha’s
+          YouTube tutorials. Built several real-world projects using HTML, CSS, Tailwind,
+          JavaScript, React.js, Node.js, Express.js, MongoDB. Practiced version control and
+          collaboration using Git & GitHub. Focused on responsive design, API integration, and
+          authentication systems.
         </p>
 
         <div className="mt-5 space-y-3 text-sm text-center">
