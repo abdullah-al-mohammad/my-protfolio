@@ -10,7 +10,7 @@ export default function About() {
   };
   return (
     <>
-      <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6">
+      <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6">
         <img src="../../images/ab.png" className="w-24 h-24 rounded-full mx-auto mb-4" />
 
         <h2 className="text-xl font-bold text-center">Name: Md Abdullah</h2>
