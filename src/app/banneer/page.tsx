@@ -5,8 +5,8 @@ import abadullah from '../../../public/images/ab.png';
 export default function Banner() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?export=download&id=10mziOKu-kPurSDebDGnvq4XZxLlDaUoQ';
-    link.download = 'AbdullahCV.pdf';
+    link.href = 'https://drive.google.com/uc?export=download&id=1K8MJlg2Mc0fkjIDI-sM3aVBTbwqKqeps';
+    link.download = 'abdullahResume.pdf';
     link.click();
   };
 
