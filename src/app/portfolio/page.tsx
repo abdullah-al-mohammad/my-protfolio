@@ -55,6 +55,39 @@ export default function Portfolio() {
               <Image className="h-48 w-full object-cover" src={image1} alt="blood" />
               <div className="card-body p-4">
                 <h2 className="card-title text-2xl font-bold h-13 overflow-hidden group-hover:text-amber-400 transition-all duration-500">
+                  NexBuy
+                </h2>
+                <p className="font-bold h-5 overflow-hidden">NexBuy — Modern eCommerce Store</p>
+                <p className=" h-5 overflow-hidden">
+                  <span className="font-bold">Technologies:</span> NexBuy is a modern eCommerce It
+                  offers fast performance, secure authentication, responsive design, product
+                  management, cart, and online shopping features.
+                </p>
+                <p className="line-clamp-4">
+                  website built with Next.js, TypeScript, MongoDB, and Mongoose.
+                </p>
+                <div className="card-actions mt-auto justify-end">
+                  <a
+                    className="link underline text-amber-400 capitalize"
+                    href={'https://github.com/abdullah-al-mohammad/ilhambd'}
+                  >
+                    view code
+                  </a>
+                  <a
+                    className="link underline text-amber-400 capitalize ml-3"
+                    href="https://ilhambd.vercel.app"
+                  >
+                    live demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="pb-20">
+            <div className="card bg-base-100 mb-5 md:mb-0 shadow-2xl">
+              <Image className="h-48 w-full object-cover" src={image1} alt="blood" />
+              <div className="card-body p-4">
+                <h2 className="card-title text-2xl font-bold h-13 overflow-hidden group-hover:text-amber-400 transition-all duration-500">
                   Blood Donation
                 </h2>
                 <p className="font-bold h-5 overflow-hidden">
