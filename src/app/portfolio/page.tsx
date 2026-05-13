@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import { Autoplay } from 'swiper/modules';
 import image1 from '../../../public/images/Blood Donation.png';
 import image3 from '../../../public/images/ecommerce.jpg';
-import image4 from '../../../public/images/logo.png';
+import image4 from '../../../public/images/logo.jpeg';
 import image2 from '../../../public/images/studentLession.jpg';
 
 import Image from 'next/image';
