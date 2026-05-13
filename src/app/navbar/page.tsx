@@ -61,7 +61,7 @@ const Navbar = () => {
               font-bold
             "
           >
-            Portfolio
+            Projects
           </span>
           <span
             className="

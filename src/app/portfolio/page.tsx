@@ -21,7 +21,7 @@ import Image from 'next/image';
 export default function Portfolio() {
   return (
     <div id="projects" className="group">
-      <h1 className="text-2xl uppercase text-amber-400 text-center mb-3">my Portfolio</h1>
+      <h1 className="text-2xl uppercase text-amber-400 text-center mb-3">my projects</h1>
       <p className="mb-10 text-center">
         Showcasing my skills, projects, and journey as a developer
       </p>
