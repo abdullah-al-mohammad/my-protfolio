@@ -7,8 +7,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-// import './styles.css';
-
 // import required modules
 import { Autoplay } from 'swiper/modules';
 import image1 from '../../../public/images/Blood Donation.png';
