@@ -4,7 +4,7 @@ import { FaLongArrowAltRight } from 'react-icons/fa';
 export default function About() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?export=download&id=1K8MJlg2Mc0fkjIDI-sM3aVBTbwqKqeps';
+    link.href = 'https://drive.google.com/uc?export=download&id=1xJhAFXUcgTFlYnRMJ0hGRt_1LQCluQvU';
     link.download = 'abdullahResume.pdf';
     link.click();
   };
