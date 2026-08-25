@@ -1,4 +1,5 @@
 import Banner from './banneer/page';
+import WhatsAppButton from './components/WhatsAppButton';
 import Contact from './contact/page';
 import Education from './education/page';
 import Footer from './footer/page';
@@ -18,6 +19,7 @@ export default function Home() {
         <Contact></Contact>
       </div>
       <Footer></Footer>
+      <WhatsAppButton />
     </main>
   );
 }

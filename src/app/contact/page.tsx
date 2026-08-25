@@ -9,7 +9,10 @@ import {
   FaLinkedinIn,
   FaMailBulk,
   FaPhone,
+  FaWhatsapp,
 } from 'react-icons/fa';
+
+import { WHATSAPP_URL } from '../constants/contact';
 import { MdOutgoingMail } from 'react-icons/md';
 import { toast, ToastContainer } from 'react-toastify';
 
@@ -62,11 +65,32 @@ export default function Contact() {
                 <span className="text-sm text-gray-500">abdullahalmuhammad6@gmail.com</span>
               </span>
             </p>
-            <p className="flex items-start gap-3">
+            <p className="flex items-start gap-3 mb-5">
               <FaPhone className="mt-1 text-4xl text-black bg-amber-400 p-2 rounded" />
               <span className="flex flex-col">
                 <span className="font-medium">Call Me</span>
-                <span className="text-sm text-gray-500 text-center">01628860956</span>
+                <Link
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-500 hover:text-amber-400 transition-colors"
+                >
+                  01628860956
+                </Link>
+              </span>
+            </p>
+            <p className="flex items-start gap-3">
+              <FaWhatsapp className="mt-1 text-4xl text-black bg-amber-400 p-2 rounded" />
+              <span className="flex flex-col">
+                <span className="font-medium">WhatsApp</span>
+                <Link
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-500 hover:text-amber-400 transition-colors"
+                >
+                  Chat on WhatsApp
+                </Link>
               </span>
             </p>
             <div className="flex gap-10 mt-5">
@@ -92,6 +116,16 @@ export default function Contact() {
               >
                 <span className="bg-white/10 hover:bg-amber-400 p-3 rounded-full text-white text-2xl">
                   <FaGithub />
+                </span>
+              </Link>
+              <Link
+                className="link link-hover flex items-center gap-2"
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="bg-white/10 hover:bg-green-500 p-3 rounded-full text-white text-2xl">
+                  <FaWhatsapp />
                 </span>
               </Link>
             </div>
