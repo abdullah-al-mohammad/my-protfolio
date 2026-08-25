@@ -12,9 +12,9 @@ import {
   FaWhatsapp,
 } from 'react-icons/fa';
 
-import { WHATSAPP_URL } from '../constants/contact';
 import { MdOutgoingMail } from 'react-icons/md';
 import { toast, ToastContainer } from 'react-toastify';
+import { WHATSAPP_URL } from '../constants/contact';
 
 export default function Contact() {
   const form = useRef<HTMLFormElement | null>(null);
@@ -98,7 +98,7 @@ export default function Contact() {
                 className="link link-hover flex items-center gap-2"
                 href="https://www.linkedin.com/in/md-abdullah-598a38258"
               >
-                <span className="bg-white/10 hover:bg-amber-400 p-3 rounded-full text-white text-2xl">
+                <span className="bg-white/10 hover:bg-[#0a66c2] p-3 rounded-full text-white text-2xl">
                   <FaLinkedinIn />
                 </span>
               </Link>
@@ -106,7 +106,7 @@ export default function Contact() {
                 className="link link-hover flex items-center gap-2"
                 href="https://www.facebook.com/abdullah.al.muhammad.482009"
               >
-                <span className="bg-white/10 hover:bg-amber-400 p-3 rounded-full text-white text-2xl">
+                <span className="bg-white/10 hover:bg-[#1877F2] p-3 rounded-full text-white text-2xl">
                   <FaFacebook />
                 </span>
               </Link>
@@ -114,7 +114,7 @@ export default function Contact() {
                 className="link link-hover flex items-center gap-2 text-white"
                 href="https://github.com/abdullah-al-mohammad"
               >
-                <span className="bg-white/10 hover:bg-amber-400 p-3 rounded-full text-white text-2xl">
+                <span className="bg-white/10 hover:bg-[#F6F8FA] hover:text-black p-3 rounded-full text-white text-2xl">
                   <FaGithub />
                 </span>
               </Link>
