@@ -1,3 +1,4 @@
+'use client';
 import { FaFileContract, FaHome, FaUser } from 'react-icons/fa';
 import { MdWork } from 'react-icons/md';
 
@@ -10,7 +11,10 @@ const Navbar = ({ setActiveSection }: { setActiveSection?: (section: string) => 
   const navLinks = (
     <>
       <li>
-        <button onClick={() => handleNav('home')} className="text-left relative group h-12 w-32 hover:bg-transparent text-black">
+        <button
+          onClick={() => handleNav('home')}
+          className="text-left relative group h-12 w-32 hover:bg-transparent text-black"
+        >
           <span
             className="
               absolute top-0 right-0
@@ -45,7 +49,10 @@ const Navbar = ({ setActiveSection }: { setActiveSection?: (section: string) => 
         </button>
       </li>
       <li>
-        <button onClick={() => handleNav('projects')} className="text-left relative group h-12 w-32 hover:bg-transparent text-black">
+        <button
+          onClick={() => handleNav('projects')}
+          className="text-left relative group h-12 w-32 hover:bg-transparent text-black"
+        >
           <span
             className="
               absolute top-0 right-0
@@ -80,7 +87,10 @@ const Navbar = ({ setActiveSection }: { setActiveSection?: (section: string) => 
         </button>
       </li>
       <li>
-        <button onClick={() => handleNav('contact')} className="text-left relative group h-12 w-32 hover:bg-transparent text-black">
+        <button
+          onClick={() => handleNav('contact')}
+          className="text-left relative group h-12 w-32 hover:bg-transparent text-black"
+        >
           <span
             className="
               absolute top-0 right-0
@@ -115,7 +125,10 @@ const Navbar = ({ setActiveSection }: { setActiveSection?: (section: string) => 
         </button>
       </li>
       <li>
-        <button onClick={() => handleNav('about')} className="text-left relative group h-12 w-32 hover:bg-transparent text-black">
+        <button
+          onClick={() => handleNav('about')}
+          className="text-left relative group h-12 w-32 hover:bg-transparent text-black"
+        >
           <span
             className="
               absolute top-0 right-0
