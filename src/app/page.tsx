@@ -6,7 +6,7 @@ import Contact from './contact/page';
 import Education from './education/page';
 import Footer from './footer/page';
 import Skills from './my-skills/page';
-import Navbar from './navbar/page';
+import Navbar from './navbar/Navbar';
 import Portfolio from './portfolio/page';
 import About from './about/page';
 
