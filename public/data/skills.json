@@ -1,43 +1,82 @@
-
-   [
-    {
-      "name": "HTML & CSS",
-      "description": "Building clean, responsive layouts",
-      "image": "/images/html.png"
-    },
-    {
-      "name": "JavaScript",
-      "description": "Writing dynamic, interactive web features",
-      "image": "/images/javascript.png"
-    },
-    {
-      "name": "React",
-      "description": "Creating fast, modern user interfaces",
-      "image": "/images/react.png"
-    },
-    {
-      "name": "Next.js",
-      "description": "Building scalable full-stack applications",
-      "image": "/images/nextjs.jpg"
-    },
-    {
-      "name": "Tailwind CSS",
-      "description": "Designing responsive UIs with utility-first classes",
-      "image": "/images/tailwindcss.png"
-    },
-    {
-      "name": "Bootstrap",
-      "description": "Creating mobile-friendly layouts with prebuilt components",
-      "image": "/images/bootstrap.png"
-    },
-    {
-      "name": "MongoDB",
-      "description": "Managing flexible NoSQL databases",
-      "image": "/images/mongodb.png"
-    },
-    {
-      "name": "TypeScript",
-      "description": "Writing safer, scalable code with strong typing",
-      "image": "/images/typescript.png"
-    }
-  ]
+[
+  {
+    "name": "HTML & CSS",
+    "description": "Building clean, semantic, and responsive web layouts",
+    "image": "/images/html.png"
+  },
+  {
+    "name": "JavaScript",
+    "description": "Building dynamic and interactive web experiences",
+    "image": "/images/javascript.png"
+  },
+  {
+    "name": "TypeScript",
+    "description": "Writing scalable and type-safe applications",
+    "image": "/images/typescript.png"
+  },
+  {
+    "name": "React",
+    "description": "Creating modern, reusable, and interactive user interfaces",
+    "image": "/images/react.png"
+  },
+  {
+    "name": "Next.js",
+    "description": "Building scalable full-stack applications with React",
+    "image": "/images/nextjs.jpg"
+  },
+  {
+    "name": "Tailwind CSS",
+    "description": "Designing modern and responsive interfaces with utility-first CSS",
+    "image": "/images/tailwindcss.png"
+  },
+  {
+    "name": "Bootstrap",
+    "description": "Creating responsive layouts with reusable UI components",
+    "image": "/images/bootstrap.png"
+  },
+  {
+    "name": "Node.js",
+    "description": "Building scalable server-side applications and APIs",
+    "image": "/images/nodejs.png"
+  },
+  {
+    "name": "Express.js",
+    "description": "Developing fast and flexible REST APIs",
+    "image": "/images/express.png"
+  },
+  {
+    "name": "MongoDB",
+    "description": "Managing flexible and scalable NoSQL databases",
+    "image": "/images/mongodb.png"
+  },
+  {
+    "name": "PostgreSQL",
+    "description": "Working with reliable relational databases for scalable applications",
+    "image": "/images/postgresql.png"
+  },
+  {
+    "name": "Prisma",
+    "description": "Managing databases with a modern type-safe ORM",
+    "image": "/images/prisma.png"
+  },
+  {
+    "name": "Firebase",
+    "description": "Implementing authentication, database, and cloud services",
+    "image": "/images/firebase.png"
+  },
+  {
+    "name": "Git & GitHub",
+    "description": "Managing source code, branches, collaboration, and project workflows",
+    "image": "/images/github.png"
+  },
+  {
+    "name": "GSAP",
+    "description": "Creating smooth and engaging web animations",
+    "image": "/images/gsap.png"
+  },
+  {
+    "name": "Framer Motion",
+    "description": "Building fluid animations and interactive UI experiences",
+    "image": "/images/framer.png"
+  }
+]

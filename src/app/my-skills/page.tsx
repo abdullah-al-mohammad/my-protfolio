@@ -18,14 +18,14 @@ export default function Skills() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="card bg-base-100 shadow-sm p-4 text-center border border-amber-400"
+            className=" bg-base-100 shadow-sm p-4 text-center border border-amber-400 flex"
           >
             <Image
-              className="mx-auto bg-white p-2 rounded-full"
+              className="mx-auto"
               src={skill.image}
               alt={skill.name}
-              width={64}
-              height={64}
+              width={150}
+              height={150}
             />
             <div className="card-body">
               <h2>{skill.name}</h2>
