@@ -1,12 +1,16 @@
-import Link from 'next/link';
 import { FaFileContract, FaHome, FaUser } from 'react-icons/fa';
 import { MdWork } from 'react-icons/md';
 
-const Navbar = () => {
+const Navbar = ({ setActiveSection }: { setActiveSection?: (section: string) => void }) => {
+  const handleNav = (section: string) => {
+    if (setActiveSection) {
+      setActiveSection(section);
+    }
+  };
   const navLinks = (
     <>
       <li>
-        <Link href="/" className="relative group h-12 w-32 hover:bg-transparent text-black">
+        <button onClick={() => handleNav('home')} className="text-left relative group h-12 w-32 hover:bg-transparent text-black">
           <span
             className="
               absolute top-0 right-0
@@ -38,10 +42,10 @@ const Navbar = () => {
           >
             <FaHome />
           </span>
-        </Link>
+        </button>
       </li>
       <li>
-        <Link href="#projects" className="relative group h-12 w-32 hover:bg-transparent text-black">
+        <button onClick={() => handleNav('projects')} className="text-left relative group h-12 w-32 hover:bg-transparent text-black">
           <span
             className="
               absolute top-0 right-0
@@ -73,10 +77,10 @@ const Navbar = () => {
           >
             <MdWork />
           </span>
-        </Link>
+        </button>
       </li>
       <li>
-        <Link href="#contact" className="relative group h-12 w-32 hover:bg-transparent text-black">
+        <button onClick={() => handleNav('contact')} className="text-left relative group h-12 w-32 hover:bg-transparent text-black">
           <span
             className="
               absolute top-0 right-0
@@ -108,10 +112,10 @@ const Navbar = () => {
           >
             <FaFileContract />
           </span>
-        </Link>
+        </button>
       </li>
       <li>
-        <Link href="about" className="relative group h-12 w-32 hover:bg-transparent text-black">
+        <button onClick={() => handleNav('about')} className="text-left relative group h-12 w-32 hover:bg-transparent text-black">
           <span
             className="
               absolute top-0 right-0
@@ -143,7 +147,7 @@ const Navbar = () => {
           >
             <FaUser />
           </span>
-        </Link>
+        </button>
       </li>
     </>
   );
